@@ -63,10 +63,66 @@ class _HomeScreenState extends State<HomeScreen> {
     // Aqui estamos simulando uma resposta de uma API
     final String response = '''
     [
-      {"nome": "Ana Silva", "curso": "Sistemas de Informação", "idade": 20, "email": "ana@email.com"},
-      {"nome": "Carlos Souza", "curso": "Engenharia de Software", "idade": 22, "email": "carlos@email.com"},
-      {"nome": "João Pereira", "curso": "Ciência da Computação", "idade": 21, "email": "joao@email.com"},
-      {"nome": "Maria Santos", "curso": "Design de Interface", "idade": 23, "email": "maria@email.com"}
+      {
+    "nome": "Ana Silva",
+    "idade": 16,
+    "serie": "1º Ano",
+    "escola": "Colégio XYZ"
+  },
+  {
+    "nome": "Pedro Santos",
+    "idade": 17,
+    "serie": "2º Ano",
+    "escola": "Escola Estadual ABC"
+  },
+  {
+    "nome": "Maria Oliveira",
+    "idade": 15,
+    "serie": "1º Ano",
+    "escola": "Colégio Particular DEF"
+  },
+  {
+    "nome": "Lucas Pereira",
+    "idade": 18,
+    "serie": "3º Ano",
+    "escola": "Escola Técnica GHI"
+  },
+  {
+    "nome": "Juliana Costa",
+    "idade": 16,
+    "serie": "2º Ano",
+    "escola": "Colégio Estadual JKL"
+  },
+  {
+    "nome": "Carlos Mendes",
+    "idade": 17,
+    "serie": "3º Ano",
+    "escola": "Escola Particular MNO"
+  },
+  {
+    "nome": "Beatriz Rocha",
+    "idade": 15,
+    "serie": "1º Ano",
+    "escola": "Colégio XYZ"
+  },
+  {
+    "nome": "Gabriel Almeida",
+    "idade": 18,
+    "serie": "3º Ano",
+    "escola": "Escola Estadual PQR"
+  },
+  {
+    "nome": "Fernanda Lima",
+    "idade": 16,
+    "serie": "2º Ano",
+    "escola": "Colégio Particular STU"
+  },
+  {
+    "nome": "Marcos Silva",
+    "idade": 15,
+    "serie": "1º Ano",
+    "escola": "Escola Técnica VWX"
+  }
     ]
     ''';
 
